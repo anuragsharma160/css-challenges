@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Montserrat:wght@700;900&display=swap');
+
+.footer{
+    position: relative;
+}
+
+.content p a{
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading{
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.heading h2{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+h4{
+    font-size: x-large;
+}
+
+.footer{
+    margin-top: 200px;
+}
+
+p a{
+    font-size: large;
+    font-weight: 500;
+}
+
+.details p{
+    font-size: large;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Oswald:wght@200;700&display=swap');
+
+/* .btn-wrapper{
+    text-align: center;
+    
+} */
+
+
+button{
+    background-color: #063568;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    width: 197px;
+    font-weight: 400;
+    margin: 350px 350px;
+}
+
+body{
+    background-color: #c4d0d1;
+    text-align: center;
+}
+
+.btn{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    box-shadow: 0 15px 50px -10px #1f1f1f;
+
+}
+
+/* .btn:hover{
+    box-shadow: 0 15px 50px -10px  #1f1f1f;
+} */
+
+.btn-text-two{
+    display: none;
+}
+
+.btn:hover span {
+    display: none;
+}
+
+.btn:hover::before{
+    content: "IT'S INTERESTING";
+    color: #ffffff;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}

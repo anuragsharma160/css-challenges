@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+}
+
+.div__btn{
+    height: 100vh;
+}
+
+.btn{
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 0.3em 0.9em;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    display: block;
+    margin: auto;
+}
+
+button{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+button:hover{
+    border-color: #ffff00;
+    border-style: solid;
+}
+
+/* button:hover{
+    box-shadow: 2px 2px 4px 2px olive;
+} */
+
+button:hover{
+    box-shadow: -1px 1px 7px 2px olive;
+}

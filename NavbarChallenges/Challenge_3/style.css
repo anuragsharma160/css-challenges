@@ -1,0 +1,81 @@
+body{
+    background-color: #dddddd;
+    height: 100vh;
+}
+
+div.nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0.8rem 1.8rem;
+    border-radius: 30px;
+}
+
+.ribbon{
+    background-color: #3d79d0;
+    width: 70%;
+    margin: 100px auto;
+    padding: 35px;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 170px;
+    height: 69px;
+    align-items: center;
+    width: 65%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+a:hover{
+    background-color: orange;
+}
+
+i:nth-child(1){
+    width: 25px;
+    height: 40px;
+    background-color: #043140;
+    position: absolute;
+    top: 41px;
+    left: -0.5px;
+    transform: skewY(40deg);
+    z-index: -1;
+}
+
+i:nth-child(2){
+    width: 25px;
+    height: 40px;
+    background-color: #043140;
+    position: absolute;
+    top: 41px;
+    right: -0.5px;
+    transform: skewY(-40deg);
+    z-index: -1;
+}
+
+i:nth-child(3){
+    height: 70px;
+    width: 100px;
+    background-color: #1d53c0;
+    clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 0 100%, 32% 50%, 0 0);
+    position: absolute;
+    top: 21px;
+    left: -76px;
+    z-index: -2;
+}
+
+i:nth-child(4){
+    height: 70px;
+    width: 100px;
+    background-color: #1d53c0;
+    clip-path: polygon(100% 0, 66% 49%, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    position: absolute;
+    top: 21.5px;
+    right: -75px;
+    z-index: -2;
+}
